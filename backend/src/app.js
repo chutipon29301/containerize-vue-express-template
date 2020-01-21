@@ -3,6 +3,7 @@ const helmet = require('helmet');
 const { json, urlencoded } = require('body-parser');
 const morgan = require('morgan');
 const router = require('./router');
+const { join } = require('path');
 
 const app = express();
 
@@ -19,7 +20,10 @@ app.use(urlencoded({ extended: true }));
 // Logger for express
 app.use(morgan('dev'));
 
+// Serve static file
+app.use(express.static(join(__dirname, './public')));
+
 // Router of server
-app.use(router);
+app.use('/api', router);
 
 module.exports = app;

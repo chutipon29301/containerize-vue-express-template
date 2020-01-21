@@ -1,0 +1,16 @@
+version: '3.7'
+services: 
+  frontend:
+    image: node:10-alpine
+    volumes: 
+      - ./frontend:/app
+    command: sh -c 'cd /app && yarn && yarn serve'
+    ports: 
+      - 8080:8080
+  backend:
+    image: node:10-alpine
+    volumes: 
+      - ./backend:/app
+    command: sh -c 'cd /app && yarn && yarn start:dev'
+    ports: 
+      - 3000:3000
