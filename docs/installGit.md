@@ -6,9 +6,9 @@
 
 2. Type the following command to terminal to start installation process
 
-```bash
-xcode-select --install
-```
+   ```bash
+   xcode-select --install
+   ```
 
 ## Windows
 
