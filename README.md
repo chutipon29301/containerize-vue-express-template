@@ -31,6 +31,7 @@
 ### Prerequisite
 
 - [git](docs/installGit.md)
+- [docker](docs/installDocker.md)
 ### Dependencies installation
   
 ### Installation
