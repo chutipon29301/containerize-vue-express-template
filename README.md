@@ -16,7 +16,6 @@
 - [About the Project](#about-the-project)
 - [Getting Started](#getting-started)
   - [Prerequisite](#prerequisite)
-  - [Dependencies installation](#dependencies-installation)
   - [Installation](#installation)
   - [Usage](#usage)
     - [Develop on local machine](#develop-on-local-machine)
@@ -32,7 +31,7 @@
 
 - [git](docs/installGit.md)
 - [docker](docs/installDocker.md)
-### Dependencies installation
+- [node](docs/installNode.md)
   
 ### Installation
 
