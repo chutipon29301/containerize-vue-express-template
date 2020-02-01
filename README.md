@@ -16,11 +16,11 @@
 - [About the Project](#about-the-project)
 - [Getting Started](#getting-started)
   - [Prerequisite](#prerequisite)
-  - [Installation](#installation)
   - [Usage](#usage)
-    - [Develop on local machine](#develop-on-local-machine)
     - [Develop in container](#develop-in-container)
+    - [Develop on local machine](#develop-on-local-machine)
     - [Build the image](#build-the-image)
+    - [Deploy the image](#deploy-the-image)
 - [License](#license)
 
 ## About the Project
@@ -32,16 +32,38 @@
 - [git](docs/installGit.md)
 - [docker](docs/installDocker.md)
 - [node](docs/installNode.md)
-  
-### Installation
 
 ### Usage
 
-#### Develop on local machine
+- Clone this repository using git clone
+
+   ```bash
+   > git clone https://github.com/chutipon29301/containerize-vue-express-template.git
+   ```
 
 #### Develop in container
 
+- Use docker-compose to start all services
+
+    ```bash
+    > docker-compose up
+    ```
+
+    Frontend application will be served on port `8080`
+
+    Backend application will be served on port `3000`
+
+#### Develop on local machine
+
+- 
+
 #### Build the image
+
+```bash
+> docker build -t <<docker-hub-username>>/<<image-name>>
+```
+
+#### Deploy the image
 
 ## License
 
