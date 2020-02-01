@@ -60,7 +60,7 @@
 #### Build the image
 
 ```bash
-> docker build -t <<docker-hub-username>>/<<image-name>>
+> docker build -t {{docker-hub-username}}/{{image-name}}
 ```
 
 #### Deploy the image
