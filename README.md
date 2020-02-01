@@ -1,5 +1,3 @@
-# Containerize website template
-
 <p align="center">
   <img src="images/logo.png">
 </p>
@@ -14,23 +12,26 @@
 
 ## Table of Contents
 
-- [Containerize website template](#containerize-website-template)
-  - [Table of Contents](#table-of-contents)
-  - [About the Project](#about-the-project)
-  - [Getting Started](#getting-started)
-    - [Prerequisite](#prerequisite)
-    - [Installation](#installation)
-    - [Usage](#usage)
-      - [Develop on local machine](#develop-on-local-machine)
-      - [Develop in container](#develop-in-container)
-      - [Build the image](#build-the-image)
-  - [License](#license)
+- [Table of Contents](#table-of-contents)
+- [About the Project](#about-the-project)
+- [Getting Started](#getting-started)
+  - [Prerequisite](#prerequisite)
+  - [Dependencies installation](#dependencies-installation)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Develop on local machine](#develop-on-local-machine)
+    - [Develop in container](#develop-in-container)
+    - [Build the image](#build-the-image)
+- [License](#license)
 
 ## About the Project
 
 ## Getting Started
 
 ### Prerequisite
+
+- [git](docs/installGit.md)
+### Dependencies installation
   
 ### Installation
 
