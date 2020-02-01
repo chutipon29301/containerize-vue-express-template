@@ -1,12 +1,6 @@
-# Installing git on your local machine
+# Install git on your local machine
 
-## Windows
-
-1. Download installer from [git website](https://git-scm.com/downloads)
-
-2. Double click installer to start installation process
-
-## OS X
+## Mac OS X
 
 1. Open terminal
 
@@ -15,3 +9,11 @@
 ```bash
 xcode-select --install
 ```
+
+## Windows
+
+1. Download installer from [git website](https://git-scm.com/downloads)
+
+2. Double click installer to start installation process
+
+For more information please visit [Set up Git](https://help.github.com/en/github/getting-started-with-github/set-up-git)
