@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="images/logo.png">
-  <div>A Containerize full-stack template using <a href="https://github.com/vuejs/vue">Vue.js</a> and <a href="https://github.com/expressjs/express">express</a></div>
 </p>
+<div align="center">A Containerize full-stack template using <a href="https://github.com/vuejs/vue">Vue.js</a> and <a href="https://github.com/expressjs/express">express</a></div>
 
 <p align="center">
 <img alt="GitHub" src="https://img.shields.io/github/license/chutipon29301/containerize-vue-express-template">
