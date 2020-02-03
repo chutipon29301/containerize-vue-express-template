@@ -25,8 +25,6 @@
 
 ## About the Project
 
-This project serves as a starter template for wh
-
 ## Getting Started
 
 ### Prerequisite
@@ -37,7 +35,7 @@ This project serves as a starter template for wh
 
 ### Usage
 
-- Clone this repository using git clone
+- Clone this repository using git clone or download as zip
 
    ```bash
    > git clone https://github.com/chutipon29301/containerize-vue-express-template.git
