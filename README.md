@@ -19,8 +19,9 @@
   - [Usage](#usage)
     - [Develop in container](#develop-in-container)
     - [Develop on local machine](#develop-on-local-machine)
+    - [Development guideline](#development-guideline)
     - [Build the image](#build-the-image)
-    - [Deploy the image](#deploy-the-image)
+    - [Deployment](#deployment)
 - [License](#license)
 
 ## About the Project
@@ -118,13 +119,20 @@
 
   > Frontend application will be served on port `8080` (<http://localhost:8080>)
 
+#### Development guideline
+
+- [Backend application](docs/developBackend.md)
+- [Frontend application](docs/developFrontend.md)
+
 #### Build the image
 
 ```bash
 > docker build -t {{docker-hub-username}}/{{image-name}}
 ```
 
-#### Deploy the image
+#### Deployment
+
+- [Application deployment on rancher](docs/deployOnRancher.md)
 
 ## License
 
