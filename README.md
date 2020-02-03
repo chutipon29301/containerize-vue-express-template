@@ -25,6 +25,8 @@
 
 ## About the Project
 
+This project serves as a starter template for wh
+
 ## Getting Started
 
 ### Prerequisite
@@ -43,19 +45,80 @@
 
 #### Develop in container
 
+- Change directory to your repository
+
+  ```bash
+  > cd /path/to/your/project
+  ```
+
 - Use docker-compose to start all services
 
     ```bash
     > docker-compose up
     ```
 
-    Frontend application will be served on port `8080`
+    > Frontend application will be served on port `8080` (<http://localhost:8080>)
 
-    Backend application will be served on port `3000`
+    > Backend application will be served on port `3000`
+    (<http://localhost:3000>)
 
 #### Develop on local machine
 
-- 
+- Change directory to your repository
+
+  ```bash
+  > cd /path/to/your/project
+  ```
+
+- At the root directory of the project, change directory to `backend` folder
+  
+  ```bash
+  > cd backend
+  ```
+
+- At the `backend` folder, install dependencies by using `npm` or `yarn`
+  > By using `yarn` package management you need to install it using following command `npm install -g yarn`
+  
+  ```bash
+  > npm install
+  # or
+  > yarn
+  ```
+
+- Start backend server in development mode (auto restart)
+
+  ```bash
+  > npm run start:dev
+  # or
+  > yarn start:dev
+  ```
+
+  > Backend application will be served on port `3000`
+    (<http://localhost:3000>)
+
+- **On the new terminal**, go to frontend folder
+  
+  ```bash
+  > cd /path/to/your/project/frontend
+  ```
+
+- At the `frontend` folder, install dependencies by using `npm` or `yarn`
+
+  ```bash
+  > npm install
+  # or
+  > yarn
+  ```
+
+- Start frontend server in development mode
+
+  ```bash
+  > npm run serve
+  # or
+  > yarn serve
+  ```
+
+  > Frontend application will be served on port `8080` (<http://localhost:8080>)
 
 #### Build the image
 
