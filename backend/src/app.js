@@ -3,6 +3,7 @@ const helmet = require('helmet');
 const { json, urlencoded } = require('body-parser');
 const morgan = require('morgan');
 const router = require('./router');
+const cors = require('cors');
 const { join } = require('path');
 
 const app = express();
@@ -22,6 +23,9 @@ app.use(morgan('dev'));
 
 // Serve static file
 app.use(express.static(join(__dirname, './public')));
+
+// Allow CORS
+app.use(cors());
 
 // Router of server
 app.use('/api', router);
