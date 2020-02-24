@@ -1,5 +1,5 @@
 <template>
-  <div class="container flex justify-center">
+  <div class="container flex flex-col items-center">
     <div class="w-full max-w-sm mt-16">
       <div class="flex items-center border-b border-b-2 border-blue-500 py-2">
         <input
@@ -12,13 +12,35 @@
           class="flex-shrink-0 bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700 text-sm border-4 text-white py-1 px-2 rounded"
           type="button"
           @click="addValue"
-        >Send</button>
+        >
+          Send
+        </button>
         <button
           class="flex-shrink-0 border-transparent border-4 text-blue-500 hover:text-blue-800 text-sm py-1 px-2 rounded"
           type="button"
           @click="clear"
-        >Cancel</button>
+        >
+          Cancel
+        </button>
       </div>
+    </div>
+    <div class="mt-4">
+      <table class="table-auto">
+        <thead>
+          <tr>
+            <th class="px-4 py-2">ID</th>
+            <th class="px-4 py-2">timestamp</th>
+            <th class="px-4 py-2">value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="row in data" :key="row.id">
+            <td class="border px-4 py-2">{{ row.id }}</td>
+            <td class="border px-4 py-2">{{ row.timestamp }}</td>
+            <td class="border px-4 py-2">{{ row.value }}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
